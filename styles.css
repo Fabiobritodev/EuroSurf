@@ -56,3 +56,8 @@ display: flex;
 #navbar-items .nav-item {
     margin: 0 1em;
 }
+.carousel-item img {
+ height: 800px;
+}
+
+
