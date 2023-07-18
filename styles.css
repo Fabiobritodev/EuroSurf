@@ -57,7 +57,7 @@ display: flex;
     margin: 0 1em;
 }
 .carousel-item img {
- height: 800px;
+ height: 850px;
 }
 
 /* SLIDER */
@@ -193,7 +193,7 @@ opacity: 0.8;
 
 }
 #featured-images img {
-    height: 550px;
+    height: 500px;
 }
 
 @media(min-width: 768px) {
