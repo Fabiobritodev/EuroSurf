@@ -169,13 +169,41 @@ margin-bottom: 1em;
 #featured-images .col-md-4 {
  position: relative; 
  cursor: pointer;  
+}
+
+#featured-images .col-md-4:hover >.banner-content {
+opacity: 0.8;
 
 }
+
+
 #featured-images .banner-content {
     position: absolute;
     top: 0;
     left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.6;
+    transition: 0.5s;
+
 }
 #featured-images img {
     height: 550px;
+}
+
+@media(min-width: 768px) {
+ .title {
+    font-size: 2.4em;
+ } 
+ .title:before {
+    bottom: 1.5em;
+ } 
+ #featured-images .banner-content{
+    opacity: 0;
+ }
 }
